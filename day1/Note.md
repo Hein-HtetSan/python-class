@@ -18,16 +18,16 @@ chmod +x shell.sh
 
 ### Create virtual environment
 ```bash
-python -m venv virtualenv_name
+python -m venv .venv
 ```
 
 ### Activate virtual environment
 ```bash
-.\virtualenv_name\Scripts\activate # window
-source virtualenv_name/bin/activate # linux or macOS
+.\.venv\Scripts\activate # window
+source .venv/bin/activate # linux or macOS
 ``` 
 
 ### Deactivate virtual environment
 ```bash
-.\virtualenv_name\Scripts\deactivate.bat
+.\.venv\Scripts\deactivate.bat
 ```
